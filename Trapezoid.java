@@ -27,7 +27,12 @@ public class Trapezoid extends Polygon
      */
 	public Trapezoid(String id, double leftSide, double rightSide, double topBase, double bottomBase)
 	{
-		// TODO: complete this...
+		super(id);
+		//Fill sidelengths with parameters
+		this.sideLengths.add(leftSide);
+		this.sideLengths.add(rightSide);
+		this.sideLengths.add(topBase);
+		this.sideLengths.add(bottomBase);
 	}
 
 	/**
@@ -64,7 +69,7 @@ public class Trapezoid extends Polygon
 	@Override
 	public String getShapeType()
 	{
-		// TODO: complete this...
+		return "Trapezoid";
 	}
 
 }
