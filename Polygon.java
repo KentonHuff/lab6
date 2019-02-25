@@ -32,6 +32,12 @@ public abstract class Polygon extends Shape
     @Override
 	public double getPerimeter()
     {
-    	// TODO: complete this...
+    	//Sums all of the values in the sideLengths ArrayList
+    	double result = 0.0;
+    	for(Double side : sideLengths)
+    	{
+    		result += side;
+    	}
+    	return result;
     }
 }

@@ -41,7 +41,7 @@ public class Circle extends Ellipse
 	@Override
 	public double getPerimeter()
 	{
-		//Major axis = radius
+		//Major axis = radius 
 		return 2 * Math.PI * this.getMajorAxis();
 	}
 

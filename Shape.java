@@ -95,7 +95,7 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public int compareTo(Shape s)
 	{
-		//Area of this bigger, comes after s in list
+		//Area of this bigger, comes after s in list 
 		if(this.getArea() > s.getArea())
 		{
 			return 1;
