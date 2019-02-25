@@ -19,7 +19,8 @@ public class Circle extends Ellipse
 	 */
 	public Circle(String id, double radius)
 	{
-		// TODO: complete this...
+		//Calls ellipse constructor with radius = minor axis = major axis
+		super(id, radius, radius);
 	}
 
 	/**
@@ -40,7 +41,8 @@ public class Circle extends Ellipse
 	@Override
 	public double getPerimeter()
 	{
-		// TODO: complete this...
+		//Major axis = radius
+		return 2 * Math.PI * this.getMajorAxis();
 	}
 
 	/**
@@ -51,6 +53,6 @@ public class Circle extends Ellipse
 	@Override
 	public String getShapeType()
 	{
-		// TODO: complete this...
+		return "Circle";
 	}
 }
