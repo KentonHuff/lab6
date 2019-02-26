@@ -107,8 +107,8 @@ public abstract class Shape implements Comparable<Shape>
 		}
 		else
 		{
-			//Perimeter of this is begger, comes after s in list
-			if(this.getPerimeter() < s.getPerimeter())
+			//Perimeter of this is bigger, comes after s in list
+			if(this.getPerimeter() > s.getPerimeter())
 			{
 				return 1;
 			}
