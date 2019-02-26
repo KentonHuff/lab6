@@ -129,7 +129,7 @@ public class ShapeSorterTest
 		sorter.addShape(a);
 		sorter.addShape(b);
 		
-		String expected = "Rectangle\t ID = Rect\t area = 12.000\t perimeter = 14.000Square\t ID = Sqr\t area = 9.000\t perimeter = 12.000";
+		String expected = "Rectangle:\t ID = Rect\t area = 12.000\t perimeter = 14.000Square:\t ID = Sqr\t area = 9.000\t perimeter = 12.000";
 		
 		Assert.assertEquals("toString() is incorrect", expected, sorter.toString());
 	}
